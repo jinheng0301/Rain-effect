@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,10 +55,11 @@
 
     /* Hero Section */
     .hero {
-      background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
-      color: white;
+      background: url("images/bread.jpg");
+      background-size: cover;
       text-align: center;
       padding: 100px 20px;
+      size: 80px;
     }
 
     .hero h2 {
@@ -157,7 +159,8 @@
       margin-bottom: 5px;
     }
 
-    input, textarea {
+    input,
+    textarea {
       width: 100%;
       padding: 8px;
       margin: 5px 0;
@@ -189,6 +192,7 @@
     }
   </style>
 </head>
+
 <body>
   <!-- Navigation Bar -->
   <nav>
@@ -245,7 +249,8 @@
   <section id="about" class="about">
     <div class="container">
       <h2>About Us</h2>
-      <p>We are passionate about baking and delivering the freshest bread to our customers. Our bakers use only the finest ingredients to ensure quality and taste in every loaf.</p>
+      <p>We are passionate about baking and delivering the freshest bread to our customers. Our bakers use only the
+        finest ingredients to ensure quality and taste in every loaf.</p>
     </div>
   </section>
 
@@ -280,10 +285,11 @@
   </footer>
 
   <script>
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
       event.preventDefault();
       alert('Message sent! We will get back to you soon.');
     });
   </script>
 </body>
+
 </html>
